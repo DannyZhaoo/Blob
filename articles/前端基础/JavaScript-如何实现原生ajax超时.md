@@ -110,10 +110,10 @@ fetch是不支持timeout的，而且相对比XMLHttpRequest有如下不同：
 	})
 	.then((data) => {
 		console.log(data);
-  	}).catch(err => {
-  		// abort会触发这个错误
-  		throw new Error('abort')
-  	})
+	}).catch(err => {
+		// abort会触发这个错误
+		throw new Error('abort')
+	})
 
 
 ```

@@ -15,7 +15,7 @@
 
 ## 什么情况下同步触发
 
-但是也有同步触发的情况，在调用后，就可以直接得到`this.state`中的值。
+但是也有**同步触发**的情况，在调用后，就可以直接得到`this.state`中的值。
 
 1. 在`setTimeout`和`setInterval`中调用，就会直接触发渲染。
 2. 使用`addEventListener`添加的绑定函数调用`setState`会直接调用。
